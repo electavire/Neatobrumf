@@ -11,7 +11,7 @@
 
 .welcome-full {
     color:white;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-weight:300px !important;
     font-size: 60px;
     max-width: 50%;
@@ -19,7 +19,7 @@
 
 .welcome-partial {
     color:white;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 300px !important;
     font-size: 35px;
     max-width: 50%;
@@ -47,19 +47,19 @@
     width: 100%;
     
     color:white;
-    font-size: 25px;
+    font-size: 27.5px;
 
 }
 
 .nav-animate{
     color:white;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     text-decoration: none;
     transition:0.3s;
 
 }
 .nav-animate:hover {
     color:#FF0505;
-    text-decoration: none;
-    font-family: 'Assistant', sans-serif;
+    text-decoration:underline;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
