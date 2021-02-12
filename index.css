@@ -5,8 +5,8 @@
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size:cover !important;
-    position: relative;
     background-attachment: fixed !important;
+    height:100%;
 }
 
 .welcome-full {
@@ -42,7 +42,6 @@
     text-decoration: none !important;
     text-align: center;
     overflow:hidden;
-    position:absolute;
     top:0;
     width: 100%;
     
@@ -56,6 +55,8 @@
     font-family: 'Open Sans Condensed', sans-serif;
     text-decoration: none;
     transition:0.3s;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
 
 }
 .nav-animate:hover {
