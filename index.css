@@ -1,5 +1,8 @@
-
-
+html, body{
+    height: 100%; 
+    width: 100%;
+    margin: 0;
+}
 .full-background {
     background-color: lightblue;
     background-position: center !important;
@@ -60,7 +63,7 @@
 
 }
 .nav-animate:hover {
-    color:#FF0505;
+    color:#70459b;
     text-decoration:underline;
     font-family: 'Open Sans Condensed', sans-serif;
 }
