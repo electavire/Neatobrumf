@@ -22,24 +22,25 @@
           <a href="stack.html" class="nav-animate">Stack</a>
         </nav>
         <div class="content-border">
-            <p style="text-align: center; margin: 0%; font-size: 75px; color: #d6d6d6; font-family: 'Open Sans Condensed';">Portfolio</p>
+            
             <div class="outer-block">
                 <div class="inner-block">
                     
                     <div class="writing-block">
+                        <p style="text-align: center; margin: 0%; font-size: 75px; color: #d6d6d6; font-family: 'Open Sans Condensed';">Portfolio</p>
                         <p>Here, you can find all the projects and work experience I have, along with a brief description 
                             of each. Projects are listed with the most recent ones first. You can also click the table 
                             images to skip to what looks interesting.</p>
 
                             <table>
                                 <tr>
-                                  <td  style="background-image:url(sora-bottom-left-stand.jpg);"></td>
-                                  <td  style="background-image:url(SPECKLE.png);"></td>
-                                  <td  style="background-image:url(DYNAMIC_SCHEDULER.PNG); background-position: top;"></td>
+                                  <td  onclick="location.href='#website-portion'"; style="background-image:url(sora-bottom-left-stand.jpg);"></td>
+                                  <td  onclick="location.href='#speckle-portion'"; style="background-image:url(SPECKLE.png);"></td>
+                                  <td  onclick="location.href='#dynamic-scheduler-portion'"; style="background-image:url(DYNAMIC_SCHEDULER.PNG); background-position: top;"></td>
                                 </tr>
                                 <tr>
-                                  <td  style="background-image:url(IIJ.png);"></td>
-                                  <td  style="background-image:url(ADVANCE_WARS.png);"></td>
+                                  <td  onclick="location.href='#IIJ-portion'"; style="background-image:url(IIJ.png);"></td>
+                                  <td  onclick="location.href='#Advance-Wars-portion'"; style="background-image:url(ADVANCE_WARS.png);"></td>
                                 </tr>
                               </table>
                         <section id="website-portion">
@@ -61,20 +62,129 @@
                                 site.
                             </p>
                         </section>
-                        <section id="website-portion">
+                        <section id="speckle-portion">
                             <div class="section-banner" style="background-image:url(SPECKLE.png);">
-                                <p class="banner-text">Neatobrumf.me</p>
                             </div>
-                            <p>This website is in fact a project! Pretty sure that counts.  I've had websites before, but 
-                                I tried to do it a little differently this time.  First time around was pure HTML and CSS, but 
-                                I wasn't satisfied enough with how it looked to keep it, looked a little too ameteurish. Next 
-                                was in wordpress, which felt like cheating but eh, it worked for a while.  Once I decided to try
-                                and learn more Front-End, WHAT YOU SEE WAS BORN!  I'm still not 100% satisfied with how it looks,
-                                but this time I did more research on some styling techniques, and I think its much better for it.
-                                Additionally I took my time a bit more in dealing with positioning and styling.  I feel like I have
-                                a much better grasp of how relative positioning works, and how to write good, reusable CSS classes.
-                                I'm sure I'll keep making changes here over time, but for now I'm satisfied with it as a portfolio
-                                site.
+                            <p>Speckle is where I'm currently working.  We're working to create platform to help people learn public 
+                                speaking. Rather than just teaching people how to speak though, we're doing things differently by helping
+                                people help each other.  The system revolves around people recoring themselves, getting an automatic rating 
+                                from us, but also encouraging them to share their videos to others, and have them rate each other, and follow
+                                each other to progress as a group.
+                            </p>
+
+                            <p>
+                                As for my own contribution, I bounced between working on backend infrastructure with AWS, and workign with
+                                frontend web portals.  I spent a lot of time working on our DynamoDB tables and related API, allowing for 
+                                proper manipulation.  Also created plenty of lambda functions for data maniuplation as well as basic searching,
+                                using it for features like getting most viewed videos, featured videos, and featured creators.  This basic search 
+                                functionality was temporary before I got our elasticsearch implementation going, with queries to get related information.
+                            </p>
+
+                            <p>
+                                Frontend work has so far has been less of a priority for me, but I did create web portals to give data manipulation
+                                abilities to our non-technical workers. Prior to this if they wanted to upload videos for testing, they would have to
+                                go through us, to have us put it into the table manually. Now the page allows for video uploads and uses Javascript
+                                to query lambda functions and upload through there.
+                            </p>
+
+                            <p>
+                                In addition to my work coding, I've had the unique opportunity to participate in product development, and weigh in
+                                on design decisions.  We have a weekly functionality meeting to decide our current priorities and the details of our
+                                implementation, and there I've been able to.
+                            </p>
+                        </section>
+                        <section id="dynamic-scheduler-portion">
+                            <div class="section-banner" style="background-image:url(DYNAMIC_SCHEDULER.PNG);">
+                            </div>
+                            <p>Speckle is where I'm currently working.  We're working to create platform to help people learn public 
+                                speaking. Rather than just teaching people how to speak though, we're doing things differently by helping
+                                people help each other.  The system revolves around people recoring themselves, getting an automatic rating 
+                                from us, but also encouraging them to share their videos to others, and have them rate each other, and follow
+                                each other to progress as a group.
+                            </p>
+
+                            <p>
+                                As for my own contribution, I bounced between working on backend infrastructure with AWS, and workign with
+                                frontend web portals.  I spent a lot of time working on our DynamoDB tables and related API, allowing for 
+                                proper manipulation.  Also created plenty of lambda functions for data maniuplation as well as basic searching,
+                                using it for features like getting most viewed videos, featured videos, and featured creators.  This basic search 
+                                functionality was temporary before I got our elasticsearch implementation going, with queries to get related information.
+                            </p>
+
+                            <p>
+                                Frontend work has so far has been less of a priority for me, but I did create web portals to give data manipulation
+                                abilities to our non-technical workers. Prior to this if they wanted to upload videos for testing, they would have to
+                                go through us, to have us put it into the table manually. Now the page allows for video uploads and uses Javascript
+                                to query lambda functions and upload through there.
+                            </p>
+
+                            <p>
+                                In addition to my work coding, I've had the unique opportunity to participate in product development, and weigh in
+                                on design decisions.  We have a weekly functionality meeting to decide our current priorities and the details of our
+                                implementation, and there I've been able to.
+                            </p>
+                        </section>
+                        <section id="IIJ-portion">
+                            <div class="section-banner" style="background-image:url(IIJ.png);">
+                            </div>
+                            <p>Speckle is where I'm currently working.  We're working to create platform to help people learn public 
+                                speaking. Rather than just teaching people how to speak though, we're doing things differently by helping
+                                people help each other.  The system revolves around people recoring themselves, getting an automatic rating 
+                                from us, but also encouraging them to share their videos to others, and have them rate each other, and follow
+                                each other to progress as a group.
+                            </p>
+
+                            <p>
+                                As for my own contribution, I bounced between working on backend infrastructure with AWS, and workign with
+                                frontend web portals.  I spent a lot of time working on our DynamoDB tables and related API, allowing for 
+                                proper manipulation.  Also created plenty of lambda functions for data maniuplation as well as basic searching,
+                                using it for features like getting most viewed videos, featured videos, and featured creators.  This basic search 
+                                functionality was temporary before I got our elasticsearch implementation going, with queries to get related information.
+                            </p>
+
+                            <p>
+                                Frontend work has so far has been less of a priority for me, but I did create web portals to give data manipulation
+                                abilities to our non-technical workers. Prior to this if they wanted to upload videos for testing, they would have to
+                                go through us, to have us put it into the table manually. Now the page allows for video uploads and uses Javascript
+                                to query lambda functions and upload through there.
+                            </p>
+
+                            <p>
+                                In addition to my work coding, I've had the unique opportunity to participate in product development, and weigh in
+                                on design decisions.  We have a weekly functionality meeting to decide our current priorities and the details of our
+                                implementation, and there I've been able to.
+                            </p>
+                        </section>
+                        <section id="Advance-Wars-portion">
+                            <div class="section-banner" style="background-image:url(ADVANCE_WARS.png);">
+                                <p class="banner-text">Advance Wars Rom-Hack</p>
+                            </div>
+                            <p>Speckle is where I'm currently working.  We're working to create platform to help people learn public 
+                                speaking. Rather than just teaching people how to speak though, we're doing things differently by helping
+                                people help each other.  The system revolves around people recoring themselves, getting an automatic rating 
+                                from us, but also encouraging them to share their videos to others, and have them rate each other, and follow
+                                each other to progress as a group.
+                            </p>
+
+                            <p>
+                                As for my own contribution, I bounced between working on backend infrastructure with AWS, and workign with
+                                frontend web portals.  I spent a lot of time working on our DynamoDB tables and related API, allowing for 
+                                proper manipulation.  Also created plenty of lambda functions for data maniuplation as well as basic searching,
+                                using it for features like getting most viewed videos, featured videos, and featured creators.  This basic search 
+                                functionality was temporary before I got our elasticsearch implementation going, with queries to get related information.
+                            </p>
+
+                            <p>
+                                Frontend work has so far has been less of a priority for me, but I did create web portals to give data manipulation
+                                abilities to our non-technical workers. Prior to this if they wanted to upload videos for testing, they would have to
+                                go through us, to have us put it into the table manually. Now the page allows for video uploads and uses Javascript
+                                to query lambda functions and upload through there.
+                            </p>
+
+                            <p>
+                                In addition to my work coding, I've had the unique opportunity to participate in product development, and weigh in
+                                on design decisions.  We have a weekly functionality meeting to decide our current priorities and the details of our
+                                implementation, and there I've been able to.
                             </p>
                         </section>
                     </div>
