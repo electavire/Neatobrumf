@@ -58,7 +58,7 @@ th{
 
 .inner-block{
     font-size: 27.5px;
-    color:white;
+    color:#e0e0e0;
     background-color: #000000;
     font-family: 'Open Sans Condensed', sans-serif;
     width:100%;
@@ -86,8 +86,8 @@ th{
     display:flexbox;
     align-items: center;
     margin-top:5%;
-    margin-left:10%;
-    margin-right:10%;
+    margin-left:5%;
+    margin-right:5%;
     margin-bottom: 5%;
     box-sizing:border-box;
     border: 2px solid #d6d6d6;

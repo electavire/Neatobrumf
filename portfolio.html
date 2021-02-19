@@ -14,7 +14,7 @@
 
   
     
-    <body class="full-background" style="background: url(Thanks-Josh.jpg)">
+    <body class="full-background" style="background: url(Thanks-Josh55.jpg)">
         <nav class="nav-block">
           <a href="index.html" class="nav-animate">Home</a>
           <a href="portfolio.html" class="nav-animate">Portfolio</a>
@@ -63,7 +63,7 @@
                             </p>
                         </section>
                         <section id="speckle-portion">
-                            <div class="section-banner" style="background-image:url(SPECKLE.png);">
+                            <div class="section-banner" style="background-image:url(SPECKLE-LOGO.png);">
                             </div>
                             <p>Speckle is where I'm currently working.  We're working to create platform to help people learn public 
                                 speaking. Rather than just teaching people how to speak though, we're doing things differently by helping
@@ -96,95 +96,92 @@
                         <section id="dynamic-scheduler-portion">
                             <div class="section-banner" style="background-image:url(DYNAMIC_SCHEDULER.PNG);">
                             </div>
-                            <p>Speckle is where I'm currently working.  We're working to create platform to help people learn public 
-                                speaking. Rather than just teaching people how to speak though, we're doing things differently by helping
-                                people help each other.  The system revolves around people recoring themselves, getting an automatic rating 
-                                from us, but also encouraging them to share their videos to others, and have them rate each other, and follow
-                                each other to progress as a group.
+                            <p>Dynamic Scheduler is a course project made by me and Cameron Stowell for out IOS programming class.  The core idea
+                                is to first take in a person's usual schedule, what activities do they do every week that don't move. Class, work, etc.
+                                That they only have to do once. Afterward each week, the user can input any new task, along with their estimated time, and
+                                the app will automaticlaly place that task within your new schedule according to your availability.
                             </p>
 
                             <p>
-                                As for my own contribution, I bounced between working on backend infrastructure with AWS, and workign with
-                                frontend web portals.  I spent a lot of time working on our DynamoDB tables and related API, allowing for 
-                                proper manipulation.  Also created plenty of lambda functions for data maniuplation as well as basic searching,
-                                using it for features like getting most viewed videos, featured videos, and featured creators.  This basic search 
-                                functionality was temporary before I got our elasticsearch implementation going, with queries to get related information.
+                                This was definitely a fun project to do, because it was my first taste of product development, and maybe gave me an inkling
+                                into it being something I would like to pursue even before my time at Speckle really drove that idea home.  We started with a 
+                                few days of heavy duty design work, elaborating on features, visuals, as well as trimming features based on our time table.  
+                                We had originally wanted have google calendar integration, but that got dropped on the cutting room floor so to speak.  In hindsight 
+                                im weirdly just as proud of what we decided to cut as what made it in.  We ended up with a presentable app just shy of the deadline, 
+                                so I'm able to say we made the right call with the cuts, even if they weren't fun decisions to make.
                             </p>
 
                             <p>
-                                Frontend work has so far has been less of a priority for me, but I did create web portals to give data manipulation
-                                abilities to our non-technical workers. Prior to this if they wanted to upload videos for testing, they would have to
-                                go through us, to have us put it into the table manually. Now the page allows for video uploads and uses Javascript
-                                to query lambda functions and upload through there.
+                                After the design phase, we split the work based on what we were moth comfortable with.  Cameron took care of the specific calendar logic,
+                                while I handled most of the app specific needs.  This meant understanding and integrating Cameron's calendar work with IOS data storage and
+                                persistence, UI creation and integration, and development of the apps storyboard and app page specific features.
                             </p>
 
-                            <p>
-                                In addition to my work coding, I've had the unique opportunity to participate in product development, and weigh in
-                                on design decisions.  We have a weekly functionality meeting to decide our current priorities and the details of our
-                                implementation, and there I've been able to.
-                            </p>
+
                         </section>
                         <section id="IIJ-portion">
                             <div class="section-banner" style="background-image:url(IIJ.png);">
                             </div>
-                            <p>Speckle is where I'm currently working.  We're working to create platform to help people learn public 
-                                speaking. Rather than just teaching people how to speak though, we're doing things differently by helping
-                                people help each other.  The system revolves around people recoring themselves, getting an automatic rating 
-                                from us, but also encouraging them to share their videos to others, and have them rate each other, and follow
-                                each other to progress as a group.
+                            <p>
+                                I was incredibly lucky to work at Internet Initiative Japan's Innovation Institute during my year abroad.  I was in a course discussing
+                                the inner workings of the standard internet protocol stack, which just so happened to be taught by Romaine Fontugne, the leader of IIJ's
+                                Internet Health Report project.  From the connection there, I was invited to work part time for a whole nine months with direct contributions
+                                the the projects performance.
                             </p>
 
                             <p>
-                                As for my own contribution, I bounced between working on backend infrastructure with AWS, and workign with
-                                frontend web portals.  I spent a lot of time working on our DynamoDB tables and related API, allowing for 
-                                proper manipulation.  Also created plenty of lambda functions for data maniuplation as well as basic searching,
-                                using it for features like getting most viewed videos, featured videos, and featured creators.  This basic search 
-                                functionality was temporary before I got our elasticsearch implementation going, with queries to get related information.
+                                The goal of Internet Health Report is to provide a better understanding about the global internet infrastructure, and how changes in one area can affect
+                                connection times elsewhere. The prime example that we usually used to explain is a sudden 50 millisecond increase in traceroute times between Melbourne and
+                                singapore in 2018.  This delay directly coincided with submarine cable cut, and the delay was resolved when the cable was replaced.  With this kind of 
+                                information, governing bodies or internet service providers can better understand the consequences of changes to infrastructure that may have otherwise been unclear.
                             </p>
 
                             <p>
-                                Frontend work has so far has been less of a priority for me, but I did create web portals to give data manipulation
-                                abilities to our non-technical workers. Prior to this if they wanted to upload videos for testing, they would have to
-                                go through us, to have us put it into the table manually. Now the page allows for video uploads and uses Javascript
-                                to query lambda functions and upload through there.
-                            </p>
-
-                            <p>
-                                In addition to my work coding, I've had the unique opportunity to participate in product development, and weigh in
-                                on design decisions.  We have a weekly functionality meeting to decide our current priorities and the details of our
-                                implementation, and there I've been able to.
-                            </p>
+                                My work on the project involved intake, use, and reliability of data.  The system ingests massive amounts of data from the RIPE network coordination centre, which 
+                                has physical infrastructure in place to take traceroutes at regular intervals all around the globe.  My job was to take that data, and feed reliably feed it to the different 
+                                parts of Internet Health Report, like Tartiflette and Raclette.  To do so, I merged their existing intake methods with a new Kafka architecture.  The script and setup would download
+                                the RIPE data, publish it through the Kafka system, and that system would track which different subscribers had or had not processed certain chunks of data. That way, in the event of 
+                                an outage, procesing can continue from the logged stop point.  If you want to check out the specifics, the repository is <a href="https://github.com/InternetHealthReport/kafka-migration">here</a>
                         </section>
                         <section id="Advance-Wars-portion">
                             <div class="section-banner" style="background-image:url(ADVANCE_WARS.png);">
                                 <p class="banner-text">Advance Wars Rom-Hack</p>
                             </div>
-                            <p>Speckle is where I'm currently working.  We're working to create platform to help people learn public 
-                                speaking. Rather than just teaching people how to speak though, we're doing things differently by helping
-                                people help each other.  The system revolves around people recoring themselves, getting an automatic rating 
-                                from us, but also encouraging them to share their videos to others, and have them rate each other, and follow
-                                each other to progress as a group.
+                            <p>
+                                My advance wars project was something I made back in the summer between high school and college.  I felt like it was proabably
+                                a good idea to start taking on "big boy projects" instead of just basic school work like "checking account systems".  I didn't 
+                                realize at the time that by the end I would consider what I had done not particularly relevant for my skillset. Even FURTHER I didn't 
+                                realize I'd change my mind back a few years later. Now that I've made that as confusing as humanly possible, I'll try to explain what i mean
                             </p>
 
                             <p>
-                                As for my own contribution, I bounced between working on backend infrastructure with AWS, and workign with
-                                frontend web portals.  I spent a lot of time working on our DynamoDB tables and related API, allowing for 
-                                proper manipulation.  Also created plenty of lambda functions for data maniuplation as well as basic searching,
-                                using it for features like getting most viewed videos, featured videos, and featured creators.  This basic search 
-                                functionality was temporary before I got our elasticsearch implementation going, with queries to get related information.
+                                The actual "coding" for the romhack didn't involve any higher level language, or really and language at all. What it did involve was a massive
+                                block of hexadecimal values.  The only way to change the game was to manually change some of those individual values, based on their corresponding effect
+                                in-game.  Luckily, theres a strong community at warsworldnews.com who did some of the heavy lifting on finding some of the key values.  Since my main focus
+                                was creating new levels, the key values for me were the pointers that the campaign looked at to load level data.  That can be shifted to point to the dummy
+                                data at the end of the file that doesn't have any affect, and can be replaced with values that represent an entirely different level.
                             </p>
 
                             <p>
-                                Frontend work has so far has been less of a priority for me, but I did create web portals to give data manipulation
-                                abilities to our non-technical workers. Prior to this if they wanted to upload videos for testing, they would have to
-                                go through us, to have us put it into the table manually. Now the page allows for video uploads and uses Javascript
-                                to query lambda functions and upload through there.
+                                At the time after finishing my goal of making new levels for the first chapter of the campaign, I felt a little unsatisfied, because I hadn't really created
+                                anything or used process that involved coding. What I realized upon formally learning about pointers though, is that that entire process was firsthand experience 
+                                with pointer manipulation, and I know my understanding of pointers came much faster with the experience.  
                             </p>
 
                             <p>
-                                In addition to my work coding, I've had the unique opportunity to participate in product development, and weigh in
-                                on design decisions.  We have a weekly functionality meeting to decide our current priorities and the details of our
-                                implementation, and there I've been able to.
+                                Lastly, an important, though rather unfortunate learning outcome was how essential good version control is.  At the time, all I was using was copies of edited roms with 
+                                titles like "chapter 3 done" and "current working" to keep track of changes. What ended up happening though, is that somewhere along the line I messed up one of my pointer values, 
+                                and when the game tries to load that value it crashes (and makes some very scary noises...).  The crucial part though, Is that I didn't notice WHEN that pointer error happened.
+                                Up to this point, I had a save file that was on the current working level to gauge progress of course, but that meant I wasn't testing every level I had finished already before moving 
+                                on. (In my defense, I still had to play every level all the way through rather than just skip to see if theyre working, which is pretty time consuming...) Thus I ended up in a situation where 
+                                I have several different files, each of them having SOME of the levels working and loading properly, but none of them having all.  At the time, thining the project wasn't helpful, I abandoned 
+                                it there.  Looking back on it I of course regret that, I no longer have a copy of my hexadecimal editor bookmarks, and it would be pretty difficult to find my level locations without it, so its not 
+                                exactly an easy fix.  
+                            </p>
+
+                            <p>
+                                While its kind of a mega bummer, that means I don't have much to share.  On my github, <a href="https://github.com/electavire/Advance_Wars_Hack">I have some of those old files,</a> so maybe I'll go back at some point. In the mean time though, I have 
+                                some pictures of the finished levels, so once I figure out a good layout I'll post some.
                             </p>
                         </section>
                     </div>

@@ -75,7 +75,7 @@ th{
 .inner-block{
     font-size: 27.5px;
     color:white;
-    background-color: black;
+    background-color:#101010;
     font-family: 'Open Sans Condensed', sans-serif;
     width:90%;
     transform: translate(5.4%,0%);
@@ -85,8 +85,8 @@ th{
 
 .outer-block{
     background-color: #70459b;
-    width:68%;
-    transform: translate(24%, 0%);
+    width:75%;
+    transform: translate(17%, 0%);
 }
 
 .writing-block{
@@ -97,6 +97,7 @@ th{
     height:100%;
     width:97.5%;
     text-align: left;
+    color:#e0e0e0;
 }
 
 .content-border{
@@ -104,8 +105,8 @@ th{
     display:flexbox;
     align-items: center;
     margin-top:5%;
-    margin-left:10%;
-    margin-right:10%;
+    margin-left:5%;
+    margin-right:5%;
     box-sizing:border-box;
     border: 2px solid #d6d6d6;
     /*will probably have to adjust height to get border to size right*/

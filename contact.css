@@ -67,6 +67,7 @@ html, body{
 
 .writing-block{
     
+    color:#E0E0E0;
     transform: translate(15%, 15%);
     height:100%;
     margin-left: 10%;
@@ -76,8 +77,8 @@ html, body{
     display:flexbox;
     align-items: center;
     margin-top:5%;
-    margin-left:10%;
-    margin-right:10%;
+    margin-left:5%;
+    margin-right:5%;
     margin-bottom: 5%;
     box-sizing:border-box;
     border: 2px solid #d6d6d6;
